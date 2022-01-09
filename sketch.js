@@ -43,7 +43,7 @@ function gotSpeech(){
         console.log(vol);
         console.log(speechRec.resultConfidence);
         let heard = speechRec.resultConfidence;
-        if (heard > 0.0)
+        if (heard > 0.95)
         {
         //bot.reply('local-user', input).then(function(reply) 
         speech.speak(input);
