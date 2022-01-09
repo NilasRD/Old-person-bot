@@ -1,6 +1,7 @@
 let num;
 let mic;
 let vol;
+let reply;
 
 function setup()
 {
@@ -45,16 +46,18 @@ function gotSpeech(){
         let heard = speechRec.resultConfidence;
         if (heard > 0.95)
         {
-        //bot.reply('local-user', input).then(function(reply) 
-        speech.speak(input);
-        output.html(input);
-        {
+            
+            //speech.speak(input);
+            //output.html(input);
+            bot.reply('local-user', input).then(function(reply)
+            {
             // output.html(reply);
+            
             console.log(reply);
             speech.speak(reply);
             output.html(reply);
-           }
-           ;
+           })
+           
         } else
         {
             bot.reply('local-user', '0001001').then(function(reply) {
@@ -128,4 +131,3 @@ function draw() {
     let h = map(vol, 0, 1, height, 0);
     ellipse(width / 2, h - 25, 50, 50);
   }
-
