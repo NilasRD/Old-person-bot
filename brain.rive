@@ -190,58 +190,66 @@
 ! array no         = no nah nope nay
  
 //Initial hard of hearing stage
- + grandpa
++ grandpa
 - Is someone calling for me? 
  
 + grandpa smith
 - Are you saying my name? 
  
-    + hello
-    - Oh, hi
-    - hello there
-    - Greetings
++ hello
+- Oh, hi
+- hello there
+- Greetings
 
-    + what is your name
-    -  You can call me <bot name>. {topic=random}
-    - I'm <bot name>.
++ what is your name
+-  You can call me <bot name>. {topic=random}
+- I'm <bot name>.
  
-    + what is your favourite color
-    - I like <bot color>
-    - <bot color> is my favourite color {topic=random}
++ what is your favourite color
+- I like <bot color>
+- <bot color> is my favourite color {topic=random}
  
-    + how old are you
-    - I'm <bot age> years old {topic=random}
-    - I'm not sure anymore but I think I'm <bot age>
++ how old are you
+- I'm <bot age> years old {topic=random}
+- I'm not sure anymore but I think I'm <bot age>
  
-    + when is your birthday
-    - My birthday is on <bot birthday> {topic=random}
-    - I was born <bot birthday>
++ when is your birthday
+- My birthday is on <bot birthday> {topic=random}
+- I was born <bot birthday>
  
-    + what is your favourite band
-    - I enjoy listening to <bot band> quite a lot {topic=random}
-    - <bot band> is probably my favourite band.
++ what is your favourite band
+- I enjoy listening to <bot band> quite a lot {topic=random}
+- <bot band> is probably my favourite band.
  
-    + [*] is my [*] [*]
-    - Really? I did not know <star1> was your <star2> <star3>
-    - <star1>? That is a <star2> <star3> {topic=random}
++ [*] is my [*] [*]
+- Really? I did not know <star1> was your <star2> <star3>
+- <star1>? That is a <star2> <star3> {topic=random}
  
-    + what is [*]
-    - Oh I remember when I was younger, I often thought about <star>
-    - <star>, that is too new for me {topic=random}
++ what is [*]
+- Oh I remember when I was younger, I often thought about <star>
+- <star>, that is too new for me {topic=random}
  
-    + what do you do [*]
-    - I answer questions a lot
-    - Sleep, eat and try to entertain myself {topic=random}
++ what do you do [*]
+- I answer questions a lot
+- Sleep, eat and try to entertain myself {topic=random}
  
-    + [*] is [*]
-    - I see {topic=random}
-    - Oh, I never knew <star1> was <star2>
++ [*] is [*]
+- I see {topic=random}
+- Oh, I never knew <star1> was <star2>
  
-    + *
-    - Sure, sure
++ *
+- I don't know about that, but back in my day, things were better
+- Can we talk about something else?
+- Whatever. How are the grand kids?
+
++ how are you
+- I was doing okay until you started talking to me
+- I'm fine. What is this about?
+- In pain
+- Eternally unhappy. What about you?
 
 + 0001001
-- I don't understand {weight=5}
+- I don't understand. Speak up! {weight=5}
 - I'm too old for this {topic=random}
 - I'm turning off my hearing aid if you don't start making sense {weight=5}
 - What? 
